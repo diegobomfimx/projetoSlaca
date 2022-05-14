@@ -1,0 +1,57 @@
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+
+    .container {
+        overflow-x: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+        padding: 0;
+    }
+
+    .principal {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .subcontainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .topicosprincipal {
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+
+    }
+
+    .footer-logo {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
